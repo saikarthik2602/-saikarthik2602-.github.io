@@ -1,0 +1,47 @@
+body {
+	font-family: 'Brush Script MT', cursive;
+	background-color: rgb(255,128,0);
+  }
+
+.container {
+	text-align: center;
+}
+
+.Heading {
+	font-size: 75px;
+	color: rgb(17, 122, 139);
+	margin: 10px auto;
+}
+
+.board {
+	display: grid;
+	grid-template-columns: repeat(3, auto);
+	width: 300px;
+	margin: 20px auto;
+	background-color: rgb(255, 217, 179);
+	color: rgb(11, 64, 82);
+
+}
+
+.cell {
+	font-family: "Permanent Marker", cursive;
+	width: 100px;
+	height: 100px;
+	border: 1px solid #1f83ba;
+
+	cursor: pointer;
+	line-height: 100px;
+	font-size: 60px;
+	caret-color: rgba(0, 0, 0, 0);
+}
+
+.winner {
+	font-size: 50px;
+	color: black;
+	margin: 20px auto;
+}
+
+.restart {
+	width: 200px;
+	height: 50px;
+}
